@@ -1,0 +1,59 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);  
+}
+
+body > img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+body > div > button {
+  color: white;
+  background-color: #0d324d;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+body > div > button:hover{
+  background-color: #7f5a83;
+}
+
+body > div > input {
+  color: white;
+  background-color: #0d324d;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+body > div > input:hover{
+  background-color: #7f5a83;
+}
+
+body > h3 {
+  margin: 0 5%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
